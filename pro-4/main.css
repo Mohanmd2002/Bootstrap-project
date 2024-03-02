@@ -1,0 +1,463 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#problem{
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+#problem li a{
+    padding: 0px 30px ;
+}
+#problem li a:hover{
+    border-bottom: 2px solid orangered;
+}
+.ss{
+    /* background-color: aqua; */
+    padding:10px;
+    margin-right: 10px;
+}
+#s1,#s2{
+    margin:0px 5px;
+}
+.main{
+    /* background-color: blanchedalmond; */
+    background-image: url(/images/bannerBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height:90vh;
+    position: relative;
+}
+.content{
+    /* background-color: aquamarine; */
+    width:200px;
+    padding:20px;
+    position: absolute;
+    top:40%;
+    left:5%;
+}
+.minimalist{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.viewcollection{
+    padding:10px 20px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+.one{
+    /* background-color: blueviolet; */
+    width:80%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.one1{
+    /* background-color: aquamarine; */
+    width:300px;
+    height:auto;
+    margin:10px;
+    text-align: center;
+}
+#logo{
+    font-size: 30px;
+    padding: 20px;
+    background-color: gray;
+    margin:10px 35%;
+    border-radius: 50%;
+}
+.two{
+    display: flex;
+    width:90%;
+    margin:5% auto;
+    /* background-color: red; */
+}
+.two1{
+    /* background-color: aquamarine; */
+    width:30%;
+    height:auto;
+    padding: 10px 0 10px 70px;
+}
+.two2{
+    /* background-color: blueviolet; */
+    width:100%;
+    height: auto;
+}
+.two img{
+    width:20%;
+    height: auto;
+    margin: 40px 10px 0 20px;
+}
+.two1 h3{
+    font-size: 24px;
+}
+.two1 span{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.three{
+    width:100%;
+    height:600px;
+    background-image: url(/images/home-filler.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.four{
+    /* background-color: aquamarine; */
+    width:70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20% 10px ;
+    color: white;
+}
+.four a{
+    color: orange;
+}
+.five{
+    /* background-color: aquamarine; */
+    width:80%;
+    height: auto;
+    margin: 5% auto;
+    text-align: center;
+}
+.six{
+    /* background-color: aquamarine; */
+    width: 90%;
+    margin: 0px auto;text-align: center;
+}
+.six1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+.six11{
+    background-color:rgb(233, 232, 232);
+    /* margin:10px 10px; */
+    text-align: center; 
+}
+.six11 img{
+    width:200px;
+    height:200px;
+}
+.seven{
+    background-color:rgb(233, 232, 232) ;
+    width:100%;
+    height:300px;
+    margin-top: 5%;
+}
+.seven1{
+    width:30%;
+    margin:0 auto;
+}
+#carouselimg{
+    padding:70px;
+    width:50px;
+    height:300px;
+}
+.eight{
+    text-align: center;
+    width:80%;
+    margin:5% auto;
+}
+.eight input{
+    width:70%
+}
+#email{
+    padding: 6px;
+}
+#eightmail{
+    padding:12px;
+    background-color: gray;
+}
+.eight .subscribe{
+    background-color: orangered;
+    padding:10px 20px;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+.nine{
+    background-color: rgb(0, 22, 0);
+    width: 100%;
+    height: auto;
+}
+.nine1{
+    /* background-color: aquamarine; */
+    width:90%;
+    margin: 0 auto;
+}
+.nine2{
+    display: flex;
+    padding: 5%  0;
+}
+.nine3{
+    /* background-color: chocolate; */
+    /* margin:5px; */
+    color:white;
+}
+#ninelogo {
+    font-size: 20px;
+    padding: 8px 10px;
+}
+.ten{
+    width:100%;
+    height:auto;
+    background-color: rgb(58, 57, 57);
+}
+.ten{
+    padding: 3% 0;
+}
+.ten1 h1{
+    color: yellow;
+    border: 3px solid yellow;
+    width:21%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4px;
+}
+.ten2{
+    /* background-color: aquamarine; */
+    width:20%;
+    margin: 3% auto;
+    text-align: center;
+}
+#ten2logo{
+    padding: 0 8px;
+    font-size: 20px;
+}
+.ten3{
+    color: black;
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ten4{
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
+.ten41 div{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+}
+#ten41logo{
+    font-size: 20px;
+    padding: 0 10px;
+}
+@media all and (min-width:320px) and (max-width:768px){
+    #problem{
+        text-align: center;
+        width:200px;
+        /* background-color: tomato; */
+        border-radius: 20px;
+    }
+    #problem li:hover{
+        background-color:lightseagreen
+    }
+    .ss{
+        /* background-color: aquamarine; */
+        width:100%;
+        text-align: center;
+    }
+    .one {
+        /* background-color: blueviolet; */
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+    }
+    .one1 {
+        /* background-color: aquamarine; */
+        margin:3% auto;
+    }
+    .two {
+        display: block;
+        width:80%;
+        /* background-color: red; */
+    }
+    .two1 {
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .two1 p{
+        text-align: justify;
+    }
+    .two2 {
+        /* background-color: blueviolet; */
+        width: 100%;
+    }
+    .two img {
+        width: 100%;
+        height: auto;
+        margin: 30px 0px;
+    }
+    .two1 span {
+        text-decoration: underline;
+        text-decoration-color: yellow;
+    }
+    .six {
+        /* background-color: aquamarine; */
+        width: 80%;
+    }
+    .six1 {
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+    .seven1 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .eight h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .eight h5{
+        font-size: 18px;
+    }
+    .eight .subscribe {
+        margin-top: 8%;
+    }
+    .nine2 {
+        display: block;
+        text-align: center;
+        padding: 8% 0;
+    }
+    .ten1 h1 {
+        width: 50%;
+    }
+    .ten2 {
+        width: 50%;
+    }
+    .ten3 {
+        color: black;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .ten4 {
+        display:block;
+        width: 55%;
+    }
+    .ten41 div {
+        display: flex;
+        justify-content: center;
+        margin: 3px 0 0 0;
+    }
+}
+@media all and (min-width:769px) and (max-width:1024px){
+    #problem {
+        text-align: center;
+        width: 200px;
+        /* background-color: tomato; */
+        border-radius: 20px;
+    }
+
+    #problem li:hover {
+        background-color: lightseagreen
+    }
+
+    .ss {
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .one {
+        /* background-color: blueviolet; */
+        width: 90%;
+        display: flex;
+    }
+    .one1 {
+        /* background-color: aquamarine; */
+        margin: 3% auto;
+    }
+    .one1 h5{
+        margin: 30px 0 0 0;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .one1 p{
+        font-size: 15px;
+    }
+    .two {
+        display: block;
+        width: 80%;
+        /* background-color: red; */
+    }
+    .two1 {
+        /* background-color: aquamarine; */
+        width: 100%;
+        text-align: center;
+    }
+    .two1 p {
+        text-align: justify;
+    }
+    .two2 {
+        /* background-color: blueviolet; */
+        width: 100%;
+    }
+    .two img {
+        width: 100%;
+        height: auto;
+        margin: 30px 0px;
+    }
+    .two1 span {
+        text-decoration: underline;
+        text-decoration-color: yellow;
+    }
+    .six1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .seven1 {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .eight h2 {
+        /* font-size: 20px; */
+        font-weight: bold;
+    }
+    .eight h5 {
+        font-size: 18px;
+    }
+    .eight .subscribe {
+        margin-top: 8%;
+    }
+    .nine2 {
+        display: block;
+        text-align: center;
+        padding: 8% 0;
+    }
+    .ten1 h1 {
+        width: 50%;
+    }
+    .ten2 {
+        width: 50%;
+    }
+    .ten3 {
+        color: black;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .ten4 {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+    .ten41 div {
+        display: flex;
+        justify-content: center;
+        margin: 3px 0 0 0;
+        width:100%
+    }
+}
